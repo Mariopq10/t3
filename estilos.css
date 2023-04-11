@@ -33,7 +33,17 @@ nav{
     border-style: double;
     border-color: rgba(0, 0, 0, 0.541);
 }
-a > nav{
- color: aliceblue;
- background-color: aquamarine;
+a {
+ display: inline-block;
+ width: 20vw;
+ max-width: 120px;
+ background-color: yellow;
+ margin: 2px;
+ border-radius: 10px;
+ 
+}
+a:hover{
+    background-color: azure;
+    color: azure;
+    box-shadow: 2px 2px 2px yellow;
 }
