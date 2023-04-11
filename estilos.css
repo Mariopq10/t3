@@ -1,9 +1,39 @@
 h1{
-
-
+color: gray;
 }
 #titulo{
-    
     text-align: center;
-    width: 10%;
+    width: 100%;
+    height: 100%;
+}
+#cubo{
+    display:flex;
+    justify-content: space-between;
+    margin: 1%;
+    padding: 3%;
+    border: 3px;
+    border-color: tomato;
+    border-style: dotted;
+
+}
+#ovo{
+    border: 2px;
+    border-color: aquamarine;
+}
+#prueba{
+    border-style: solid;
+    border: 2px;
+    border-color:blue
+}
+nav{
+    background-color: gray;
+    padding: 3px;
+    text-align: center;
+    border: 2px;
+    border-style: double;
+    border-color: rgba(0, 0, 0, 0.541);
+}
+a > nav{
+ color: aliceblue;
+ background-color: aquamarine;
 }
